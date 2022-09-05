@@ -1,0 +1,54 @@
+Git Commands:
+
+1. git init
+2. git clone 
+3. git pull
+4. git add
+5. git commit -m "Commit Message"
+6. git push
+7. git status - to see in which particular area our files are exist
+8. git log -  to see logs in your local repository
+9. git log --oneline -  to see short description of your commits we use this command
+10. git diff -  it will show you the diffences/modification done on you working area
+
+
+
+git add - can be done in different ways
+
+you can add all the files modifed or created or deleted into staging area from working tree/area
+
+git add . -  here (.)Dot represents to save all the files which are there in current repository
+git add file-name
+
+git push - to push changes from your local repository to remote repository
+
+1. directly to git push
+2. do git push with the git hub repository url
+3. do git push to a specific head/branch
+
+git push origin HEAD:[branch-name]
+git push --set-upstream origin [branch-name]
+
+3 branches
+
+1. master
+2. feature
+3. test
+
+
+git log - it will give you the description of the changes you have done
+it will contain the following things
+
+1. Long commit ID
+2. Owner information
+3. Commit Message
+
+git log --oneline -  it will show the following things
+ 
+1. short commit ID which containg 7 characters
+2. commit message
+
+
+Terms:
+
+Merge conflicts
