@@ -10,8 +10,9 @@ Git Commands:
 8. git log -  to see logs in your local repository
 9. git log --oneline -  to see short description of your commits we use this command
 10. git diff -  it will show you the diffences/modification done on you working area
-
-
+11. git show - it is used to see a breif information of your commits
+12. git restore - to move the changes from stating area to working tree/to discard the complete changes
+13. git checkout - to move from one branch/commit to another branch/commit
 
 git add - can be done in different ways
 
@@ -47,6 +48,31 @@ git log --oneline -  it will show the following things
  
 1. short commit ID which containg 7 characters
 2. commit message
+
+
+git diff: follow the below command to see the differences between 2 commits
+
+git diff <commit1> <commit2>
+
+to see differences between multiple commits follow the below command
+git diff <startcommit>..<endcommit>
+
+
+git restore: follow the below command
+
+to get the changes from stating area to working tree
+git restore --staged <file_name>
+
+to discard the changes in working tree follow the below command
+git restore <file_name>
+
+
+git checkout: 
+1. to move from one branch to another branch
+    git checkout <branch_name>
+2. to move from one commit to another commit
+    git checkout <commit_id>
+
 
 
 Terms:
