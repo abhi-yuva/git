@@ -1,0 +1,37 @@
+Scenario 1:
+I have 4 developers working in single application, all the 4 developers will be accesing the same repository at a time. They will be working on the repository paralelly and will be
+pushing the changes to the repository on daily basis.
+
+Solution: Branches
+go for individual branch where they can work on their own branch and develop the code and at the end when needed merge the changes with the master branch
+
+Scenario 2:
+Let say I have 2 customer, here Both the customers are accessing the same application but both need 2 different option in application.
+
+Scenario 3:
+I want to see the changes or want to know what commits are there till some particular point.
+
+Scenario 4:
+I want to undo my changes easily
+
+
+
+
+we will be taking variables:
+
+first name
+last name
+mobile
+email id
+passowrd
+confirm password
+
+fn
+inital
+phone
+contant
+emil
+pass
+password
+
+
