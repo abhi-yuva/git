@@ -12,7 +12,28 @@ Git Commands:
 10. git diff -  it will show you the diffences/modification done on you working area
 11. git show - it is used to see a breif information of your commits
 12. git restore - to move the changes from stating area to working tree/to discard the complete changes
-13. git checkout - to move from one branch/commit to another branch/commit
+13. git branch - to create a branch in repository
+        git branch <branch_name>
+14. git checkout - to move from one branch/commit to another branch/commit
+        1. to move from one branch to another branch
+                git checkout <branch_name>
+        2. to move from one commit to another commit
+                git checkout <commit_id>
+
+    there are 2 way to checkout.
+    1. directly checkout to the branch after creating the branch
+                git checkout <branch_name>
+    2. create the branch and checkout to the branch paralelly
+                git checkout -b <branch_name>
+
+
+
+
+
+
+
+
+
 
 git add - can be done in different ways
 
@@ -68,10 +89,8 @@ git restore <file_name>
 
 
 git checkout: 
-1. to move from one branch to another branch
-    git checkout <branch_name>
-2. to move from one commit to another commit
-    git checkout <commit_id>
+
+
 
 
 
