@@ -19,6 +19,25 @@ Git Commands:
                 git checkout <branch_name>
         2. to move from one commit to another commit
                 git checkout <commit_id>
+        3. to go back to the immediate checkout
+                git checkout - 
+                ""-""  - point to the previous place from where you checkedout
+
+15. git clean - It is used to reomve the changes which are there in untracked list
+        git clean
+          1. Dry Run - It will show you what are all the files will be removed from untracked list
+                git clean --dry-run
+          2. Intractive modifed
+                git clean -i
+          3. Directories
+                git clean -d 
+          4. Force
+                git clean -f
+
+16. git reset
+17. git revert
+
+        
 
     there are 2 way to checkout.
     1. directly checkout to the branch after creating the branch

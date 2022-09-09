@@ -13,6 +13,16 @@ I want to see the changes or want to know what commits are there till some parti
 
 Scenario 4:
 I want to undo my changes easily
+    1. let say you want to undo your changes which are there in untracked list
+            git clen
+    2. I want to remove the changes which are already commited in my local repository
+            git restore --source <commit-id> <file_name>
+    3. I want to remove a specific file from my local repository
+            git rm <file_name>
+    4. I want to remove a specific file from staging area to working tree
+            git restore --staged <file_name>
+
+
 
 
 
