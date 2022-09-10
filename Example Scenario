@@ -1,0 +1,22 @@
+Create arepository:
+
+Rename the branch as master
+Clone the repo into your local system
+Create 3 commits with the below names
+    1. first commit
+    2. this is my 2nd commit
+    3. A new commit
+create a branch from 2nd commit from master branch and name it as 
+        first-branch
+create 2 commit in first-branch as follows
+    1. My sub branch 1st commit
+    2. My new commit in 1st branch
+create 4th commit in master branch as follows
+    my 4th commit in master branch
+Create a branch from 3 commit from master branch and name it as
+        second-branch
+Create 2 commits in second-branch as follows
+    1. New commit in 2nd branch
+    2. Added one more commit here
+Create 5th commit in Master Branch 
+    my 5th commit
