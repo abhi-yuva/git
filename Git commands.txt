@@ -34,8 +34,62 @@ Git Commands:
           4. Force
                 git clean -f
 
-16. git reset
-17. git revert
+16. git reset: I will remove the changes happen recently and get back the changes to the previous position
+                Git reset have 3 types  
+                  1. Soft reset - It will not remove the commit id's but it will move the changes back to staging area instead
+                        git reset --soft HEAD~<position>
+                  2. Hard reset - It will remove the changes along with the commit id
+                        git reset --hard HEAD~<position>
+                  3. Mixed Reset - It will remove the changes and will place the changes in Working Area/Tree instead of moving the changes back to staging area
+                        git reset --mixed HEAD~<position>
+        Positions are of 3 types
+                1. Completly remove it - along with the content it will remove the Commit ID aswell
+                        git reset --hard HEAD~<position>
+                2. Getting back the changes to Staging Area
+                        git reset --soft HEAD~<position>
+                3. Getting back the changes to Working Area/Tree
+                        git reset --mixed HEAD~<position>
+17. git revert - 
+18. git reflog - It will store all the operations alogn with the commit id's which we have lost in your original logs. Reflog will act as a backup to store your logs
+                git reflog
+
+
+Different Between Git Reset & Git Rervert:
+------------------------------------------
+When we perform git Reset the content along with commit id and commit message will be lost.
+When we perform git Revert Only the content will be lost and and extra commit message & Commit ID will be created for the revert operations
+
+
+Git Log --oneline:
+641fb9a (HEAD -> master) added 2 extra lines
+3c2de1d Revert Operation
+01acc63 Revert "Performing Rever Operation"
+fb79197 Performing Rever Operation
+
+
+Performing Git Reset:
+git reset --hard HEAD~1
+-----------
+OUTPUT OF GIT LOG:
+-------------------------------------
+3c2de1d (HEAD -> master) Revert Operation
+01acc63 Revert "Performing Rever Operation"
+fb79197 Performing Rever Operation
+
+
+Performting Git Revert:
+git revert HEAD
+-----------
+OUTPUT OF GIT LOG:
+-------------------------------------
+d5e89d5 (HEAD -> master) Reverted Data
+3c2de1d Revert Operation
+01acc63 Revert "Performing Rever Operation"
+fb79197 Performing Rever Operation
+
+
+
+
 
         
 

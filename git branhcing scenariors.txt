@@ -22,6 +22,15 @@ I want to undo my changes easily
     4. I want to remove a specific file from staging area to working tree
             git restore --staged <file_name>
 
+Scenario 5:
+I want to perform the following changes
+    1. I want to get back the changes to staging area
+            git reset --soft
+    2. I want to get back the changes directly to Working Area
+            git reset --mixed
+    3. I want to completely remove the changes which was made recently
+            git reset --hard 
+
 
 
 
