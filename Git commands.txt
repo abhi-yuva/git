@@ -53,6 +53,15 @@ Git Commands:
 18. git reflog - It will store all the operations alogn with the commit id's which we have lost in your original logs. Reflog will act as a backup to store your logs
                 git reflog
 
+19. git graph - It is to view the graphical reperesentaion of your commits in your current repository.
+        to view short commits and graph
+                git log --oneline --graph
+        to view the complete meta data of your commits and the graph
+                git log --graph
+
+20.git amend - It is used to modify the commit message with our modifying the content in the commit
+                git commit --amend
+
 
 Different Between Git Reset & Git Rervert:
 ------------------------------------------

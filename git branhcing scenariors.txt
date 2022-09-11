@@ -31,9 +31,15 @@ I want to perform the following changes
     3. I want to completely remove the changes which was made recently
             git reset --hard 
 
+Scenario 6: 
+I have done a commit and later I realized that the commit message was wrongly given.
+Now I want to modify the commit message with out modifying the content.
+            git commit --amend
 
-
-
+Scenario 7:
+I have created a 2 branches in my repository.
+My first branch was created from master. 
+I want to get back the changes which are made on the feature branch to my master branch
 
 
 we will be taking variables:
