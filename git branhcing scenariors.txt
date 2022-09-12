@@ -40,6 +40,24 @@ Scenario 7:
 I have created a 2 branches in my repository.
 My first branch was created from master. 
 I want to get back the changes which are made on the feature branch to my master branch
+        "merging"
+Scenario 8:
+
+we have created a branch from 3rd commit, and we made an 2 more extra commits in the base branch.
+Now I want to showcase that I have created a feature branch from the latest commit i,e. from 5th commit not from the 3rd commit.
+        "rebasing"
+
+
+Scenario 9:
+I have 3 commits in base branch and I have created a new feature branch from 3rd commit.
+In the feature branch I have created 2 commits.
+Mean while I have created 2more commits in the base branch.
+Now my requirement is to bring a specific Commit from the feature branch to the base branch.
+        "cherry-picking"
+
+
+
+
 
 
 we will be taking variables:

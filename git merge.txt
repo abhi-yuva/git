@@ -1,0 +1,38 @@
+Base Branch - Main
+--------------
+
+1bd4c2c (HEAD -> main) added a new commit in base branch
+
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
+
+
+
+Feature Branch - Feature
+---------------------------
+68fe380 (HEAD -> feature) Added one more commit in feature branch
+3ea513d One More commit from feature branch
+e3d75d4 Added new commit from feature branch
+
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
+
+
+
+
+e8af02e (HEAD -> main) Merged Feature branch to master branch
+
+1bd4c2c added a new commit in base branch
+
+68fe380 (feature) Added one more commit in feature branch
+3ea513d One More commit from feature branch
+e3d75d4 Added new commit from feature branch
+
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
