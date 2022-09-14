@@ -1,0 +1,39 @@
+Main Branch:
+-----------
+b86a60a (HEAD -> main) Added commit in Main branch to show cherrypick
+1fed5e7 Added a new commit in main branch
+e222ad4 Added one more commit in feature branch
+66588c6 One More commit from feature branch
+557422a Added new commit from feature branch
+56f1dd7 (feature1) Added new commit in feature 1 branch
+26652f1 Modifed content in feature 1 branch
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
+
+
+Feature 1 Branch:
+-----------------
+e3c7bed (HEAD -> feature1) Added commit in Main branch to show cherrypick
+cdda49a latest commit in feature1 branch
+56f1dd7 Added new commit in feature 1 branch
+26652f1 Modifed content in feature 1 branch
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
+
+
+Feature Branch:
+----------------
+e5ae126 (HEAD -> feature) Added new commit in feature 1 branch
+68fe380 Added one more commit in feature branch
+3ea513d One More commit from feature branch
+e3d75d4 Added new commit from feature branch
+6c3c5b9 Modified a file
+c241809 Modified a file
+4cb80f0 Created a New file
+e9803c4 (origin/main, origin/HEAD) Initial commit
+
+
